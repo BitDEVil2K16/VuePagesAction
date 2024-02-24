@@ -79,6 +79,7 @@ on:
 
 permissions:
   contents: write
+
 jobs:
   build_react:
     runs-on: ubuntu-latest
