@@ -83,10 +83,10 @@ permissions:
 jobs:
   build_react:
     runs-on: ubuntu-latest
-    name: Build React
+    name: Build Vue
     steps:
     - uses: actions/checkout@v2
-    - id: Build-React-App
+    - id: Build-Vue-App
       uses: BitDEVil2K16/VuePagesAction@1.0.0
       with:
         username: 'YourGithubName'
